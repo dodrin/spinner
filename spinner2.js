@@ -4,7 +4,7 @@ let delay = 0;
 spinnerParts.forEach((part1) => {
   spinnerParts.forEach((part2) => {
     setTimeout(() => {
-      process.stdout.write(part2);
+      process.stdout.write(part2 + '    ');
     }, (delay += 200));
   });
 });
